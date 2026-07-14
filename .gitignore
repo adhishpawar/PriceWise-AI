@@ -1,0 +1,138 @@
+# =========================
+# Python
+# =========================
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# ML / Data Science
+# =========================
+
+# Datasets
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+
+# Large model files
+models/
+model/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# ML experiment tracking
+mlruns/
+mlartifacts/
+
+# MLflow
+mlflow.db
+
+
+# =========================
+# Logs
+# =========================
+
+logs/
+*.log
+
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# IDE / Editor
+# =========================
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter
+.jupyter/
+
+
+# =========================
+# Operating System
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+
+# =========================
+# Streamlit / FastAPI / Flask
+# =========================
+
+.streamlit/
+
+
+# =========================
+# Documentation build
+# =========================
+
+docs/_build/
+
+
+# =========================
+# Project specific
+# =========================
+
+# Saved predictions
+predictions/
+
+# Uploaded files
+uploads/
+
+# Generated reports
+reports/
+explanations/
