@@ -32,18 +32,18 @@ def ml_pipeline():
     # Outlier Detection Step
     clean_data = outlier_detection_step(engineered_data, column_name="SalePrice")
 
-    # # Data Splitting Step
-    # X_train, X_test, y_train, y_test = data_splitter_step(clean_data, target_column="SalePrice")
+    # Data Splitting Step
+    X_train, X_test, y_train, y_test = data_splitter_step(clean_data, target_column="SalePrice")
 
-    # # Model Building Step
-    # model = model_building_step(X_train=X_train, y_train=y_train)
+    # Model Building Step
+    model = model_building_step(X_train=X_train, y_train=y_train)
 
-    # # Model Evaluation Step
-    # evaluation_metrics, mse = model_evaluator_step(
-    #     trained_model=model, X_test=X_test, y_test=y_test
-    # )
+    # Model Evaluation Step
+    evaluation_metrics, mse = model_evaluator_step(
+        trained_model=model, X_test=X_test, y_test=y_test
+    )
 
-    # return model
+    return model
 
 
 if __name__ == "__main__":
